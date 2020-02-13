@@ -5,7 +5,7 @@ Learn Github By Anis Shili
 
 
 ## **GIT**:
----
+
 Git is a version control system. It helps you control the different versions of the files in your project.
 
 The collection of all the old versions of your project's files is known as a Git repository. 
@@ -32,13 +32,16 @@ It's basically just a folder in which you can edit your files, then run Git comm
 
 
 # **GIT SUBCOMMANDS**:
----
+
 
 ## init: 
 The git clone and git init commands are used to set up new repositories.
 exp git 
 
-``` git init ```
+```bash
+git init 
+
+```
 
 Commit
 
