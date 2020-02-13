@@ -25,24 +25,23 @@ Git command line options consist of either a single dash followed by a single le
 
 ## **GITHUB**
 
-By now you should know that you are in guthub and This is github.com
+By now you should know that you are in guthub and This is github.com.
 
 ## **REPOSITORY**
 
-It's basically just a folder in which you can edit your files, then run Git commands to store your changes
+It's basically just a folder in which you can edit your files, then run Git commands to store your changes.
 
 
 <h1 style="color:green"><b>GIT COMMANDS</b></h1>
 
-
-## CREATION
+<h2 style="color:blue">CREATION OF REPOSITORIES</h2>
 to create a repository you can use the init to create a new repo or clone to get a pre-create one.
 
 <h3 style="color:red">init</h3>
 
 git init command is used to set up new repository.
 
-You need to go the folder you want to put in github and use the following command
+You need to go the folder you want to put in github and use the following command.
 
 ```bash
 
@@ -63,23 +62,16 @@ it downloads the repository in whatever specified folder.
 git clone https://github.com/your username/repository name.git
 ```
 
-## LOCAL CHANGES
 
-### status
+<h2 style="color:blue">CHANGES TO REPOSITORIES</h2>
 
-shows the infomation about the status of the changed files in the reposirory
 
-```bash
 
-git status
+<h3 style="color:red">commit</h3>
 
-```
+it is used to save changes. Extra flags may be added to the commit subcommand such as :
 
-### Commit
-
-it is used to save changes. Extra flags may be added to the commit subcommand such as
-
-* -m for entering a message to mark the changes or information about that change
+* -m for entering a message to mark the changes or information about that change.
 
 ```bash
 
@@ -87,7 +79,7 @@ git commit -m "your message here"
 
 ```
 
-## add
+<h3 style="color:red">add</h3>
 
 add new changed files to be commited. i used with "." it will add all changed files to the next commit.
 
@@ -97,9 +89,9 @@ git commit -m "your message here"
 
 ```
 
-## Push
+<h3 style="color:red">push</h3>
 
-push the changes to the master repository. -u will prompt you for a username
+push the changes to the master repository. -u will prompt you for a username.
 
 ```bash
 
@@ -107,20 +99,18 @@ git push -u origin master
 
 ```
 
-## Pull
+<h3 style="color:red">pull</h3>
 
-pull changes from the repository
+pull changes from the repository.
 
 ```git
 
 git pull
 ```
 
+<h3 style="color:red">branch</h3>
 
-
-## Branch
-
-branch command is used with flags to help you managing your branches inside the repository
+branch command is used with flags to help you managing your branches inside the repository.
 
 exp:
 
@@ -139,9 +129,10 @@ git branch "your new branch"
 
 ```
 
-# MERGE
+<h2 style="color:blue">MERGE REPOSITORIES</h2>
 
-## merge
+<h3 style="color:red">merge</h3>
+
 to merge a branch into current HEAD.
 
 ```git
@@ -152,24 +143,55 @@ git merge "branch name"
 
 ## Merge Conflict
 
-# UPDATE
+<h2 style="color:blue">UPDATE REPOSITORIES</h2>
+# UPDATE THE REPOSITORY
 
-## Fetch
+<h3 style="color:red">fetch</h3>
 
 download all the changes from the remote but doesnt integrate into HEAD.
 
 ```git
 
-git fetch "remote name"
+git fetch "remote name".
 
 ```
 
-## Remote
+<h3 style="color:red">remote</h3>
 
-*-v will list all currently configured remotes
+*-v will list all currently configured remotes.
 
 ```git
 
 git remote -v
+
+```
+<h2 style="color:blue">INFO ABOUT REPOSITORIES</h2>
+
+<h3 style="color:red">status</h3>
+
+shows the infomation about the status of the changed files in the reposirory.
+
+```bash
+
+git status
+
+```
+
+
+<h3 style="color:red">log</h3>
+
+shows all commits starting from the newest.
+
+```bash
+
+git log
+
+```
+
+show changes over time for a specific file.
+
+```bash
+
+git log -p "filename"
 
 ```
