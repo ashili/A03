@@ -1,9 +1,8 @@
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
+
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+)# A03
 
 
-# A03
+
 Learn Github By Anis Shili
 
 ## **GIT**
@@ -33,7 +32,7 @@ By now you should know that you are in guthub and This is github.com
 It's basically just a folder in which you can edit your files, then run Git commands to store your changes
 
 
-<h1 style="color:green"> # **GIT COMMANDS** </h1>
+<h1 style="color:green"><b>GIT COMMANDS</b></h1>
 
 
 ## CREATION
@@ -54,6 +53,8 @@ git init
 or
 
 <h3 style="color:red">clone</h3>
+
+
 
 it downloads the repository in whatever specified folder.
 
