@@ -27,11 +27,14 @@ By now you should know that you are in guthub and This is github.com
 
 It's basically just a folder in which you can edit your files, then run Git commands to store your changes
 
-# **GIT SUBCOMMANDS**
+# **GIT COMMANDS**
 
-## init
+## CREATION
+to create a repository you can use the init to create a new repo or clone to get a pre-create one.
 
-git init commands are used to set up new repositories.
+### init
+
+git init command is used to set up new repository.
 
 You need to go the folder you want to put in github and use the following command
 
@@ -41,9 +44,22 @@ git init
 
 ```
 
-## status
+or
 
-shows the infomation about the staus of the files in the reposirory
+### Clone
+
+it downloads the repository in whatever specified folder.
+
+```bash
+
+git clone https://github.com/your username/repository name.git
+```
+
+## LOCAL CHANGES
+
+### status
+
+shows the infomation about the status of the changed files in the reposirory
 
 ```bash
 
@@ -51,11 +67,11 @@ git status
 
 ```
 
-## Commit
+### Commit
 
-it is used to save changes. Extra flags may be added to the commit subcommand such as 
+it is used to save changes. Extra flags may be added to the commit subcommand such as
 
-* -m for entering a message to mark the changes cor informatyion about that change
+* -m for entering a message to mark the changes or information about that change
 
 ```bash
 
@@ -65,9 +81,9 @@ git commit -m "your message here"
 
 ## add
 
-add new changed files to be commited. i used with "." it will add aqll files.
+add new changed files to be commited. i used with "." it will add all changed files to the next commit.
 
-```bash
+```git
 
 git commit -m "your message here"
 
@@ -75,23 +91,77 @@ git commit -m "your message here"
 
 ## Push
 
+push the changes to the master repository. -u will prompt you for a username
+
+```bash
+
+git push -u origin master
+
+```
+
 ## Pull
+
+pull changes from the repository
+
+```git
+
+git pull
+```
+
+
 
 ## Branch
 
-## Merge
+branch command is used with flags to help you managing your branches inside the repository
+
+exp:
+
+to list all existing branches use
+
+```git
+
+git branch -av
+```
+
+to create a newe branch use
+
+```git
+
+git branch "your new branch"
+
+```
+
+# MERGE
+
+## merge
+to merge a branch into current HEAD.
+
+```git
+
+git merge "branch name"
+
+```
 
 ## Merge Conflict
 
+# UPDATE
+
 ## Fetch
+
+download all the changes from the remote but doesnt integrate into HEAD.
+
+```git
+
+git fetch "remote name"
+
+```
 
 ## Remote
 
-Your commits should have clear messages like:
+*-v will list all currently configured remotes
 
+```git
 
-Task: Create Repository
+git remote -v
 
-Feature:  added workflow for using github
-
-Fix:  changed readme.md for definition of terms
+```
