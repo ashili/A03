@@ -131,7 +131,7 @@ to list all existing branches use
 git branch -av
 ```
 
-to create a newe branch use
+to create a new branch use
 
 ```git
 
