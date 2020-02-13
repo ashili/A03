@@ -27,12 +27,14 @@ By now you should know that you are in guthub and This is github.com
 
 It's basically just a folder in which you can edit your files, then run Git commands to store your changes
 
-# **GIT COMMANDS**
+
+<h1 style="color:green"> # **GIT COMMANDS** </h1>
+
 
 ## CREATION
 to create a repository you can use the init to create a new repo or clone to get a pre-create one.
 
-### init
+<h3 style="color:red">init</h3>
 
 git init command is used to set up new repository.
 
@@ -46,7 +48,7 @@ git init
 
 or
 
-### Clone
+<h3 style="color:red">clone</h3>
 
 it downloads the repository in whatever specified folder.
 
